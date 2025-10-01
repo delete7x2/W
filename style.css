@@ -1,5 +1,5 @@
 body {
-    width: 1200px;
+    width: 1100px;
     margin: auto;
 
 
@@ -233,10 +233,175 @@ top: 226px;
 }
 
 .ur_help{
-
 display: flex;
 padding-top: 50px;
+    }
 
 
+.consult {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 35px;
+}
 
+.urcont1 {
+    display: inline-block;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 0.5px;
+    padding: 5px;
+    border-color: #d1d1d1;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 17px;
+}
+
+.urcont1>img {
+    padding-top: 10px;
+}
+
+.nb {
+    /* 8 800 302-92-70 */
+
+width: 150px;
+height: 27px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 27px;
+
+color: #140A32;
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.tx {
+    /* По телефону горячей линии */
+
+width: 230px;
+height: 22px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+
+color: #140A32;
+
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.green-text {
+    /* Заказать звонок */
+
+width: 135px;
+height: 22px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #33836E;
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+background-color: white;
+border: none;
+
+}
+
+.ur-consult2 {
+    display: inline-block;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 0.5px;
+    padding: 5px;
+    border-color: #d1d1d1;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 17px;
+    
+}
+
+.ur-consult2>img {
+    padding-top: 14px;
+}
+
+.urcont3 {
+    display: inline-block;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 0.5px;
+    padding: 5px;
+    border-color: #d1d1d1;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 17px;
+
+}
+
+.urcont3>img {
+    padding-top: 10px;
+}
+
+.green-text2 {
+    /* Отправить запрос */
+
+margin: 0 auto;
+width: 149px;
+height: 22px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+
+background-color: white;
+border: none;
+
+color: #33836E;
+
+}
+
+.urcont4 {
+    display: inline-block;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 0.5px;
+    padding: 5px;
+    border-color: #d1d1d1;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 17px;
+}
+
+.urcont4>img {
+    padding-top: 11px;
+}
+
+.ad {
+    max-width: 1100px;
+    margin-top: 50px;
+}
+
+.why-we-help-you {
+    margin-top: 50px;
 }
