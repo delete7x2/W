@@ -228,7 +228,7 @@ color: #140A32;
 position: absolute;
 width: 377px;
 height: 402px;
-left: 1400px;
+left: 1200px;
 top: 226px;
 }
 
@@ -404,4 +404,18 @@ color: #33836E;
 
 .why-we-help-you {
     margin-top: 50px;
+}
+
+.whyhelp {
+    display: flex;
+    border-style: solid;
+    border-radius: 15px;
+    border-width: 0.5px;
+    border-color: #e4e4e4;
+    width: 450px;
+    padding: 30px;
+}
+
+.cont-txt {
+    margin-top: 20px;
 }
