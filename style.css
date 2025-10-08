@@ -228,7 +228,7 @@ color: #140A32;
 position: absolute;
 width: 377px;
 height: 402px;
-left: 1200px;
+left: 1300px;
 top: 226px;
 }
 
@@ -418,4 +418,73 @@ color: #33836E;
 
 .cont-txt {
     margin-top: 20px;
+    padding-left: 20px;
+}
+
+.whyhelp-cont1 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.whyhelp-cont2 {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.whywe {
+    max-width: 500px;
+}
+
+.companyimg {
+    position: absolute;
+    display: flex;
+    left: 1200px;
+    top: 1945px;
+    max-width: 500px;
+}
+
+.data {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #33836E;
+    max-width: 500px;
+}
+
+
+.re {
+    margin-left: 130px;
+}
+
+.rw {
+    margin-left: 105px;
+}
+
+.back {
+    margin-top: 92px;
+    background-color: #33836E;
+    border-radius: 15px;
+}
+
+.back-phone-text {
+    display: flex;
+    color: white;
+    padding-left: 30px;
+    padding-bottom: 0;
+    padding-top: 30px;
+}
+.back-phone {
+    display: flex;
+    color: white;
+    padding-left: 30px;
+    padding-bottom: 10px;
+
+}
+
+.tt {
+    display: inline-block;
+
 }
