@@ -488,3 +488,72 @@ color: #33836E;
     display: inline-block;
 
 }
+
+.zakcall {
+    color: white;
+    position: absolute;
+    left: 1170px;
+    top: 2330px;
+}
+
+.number-phone {
+    /* Номер телефона */
+
+
+position: absolute;
+left: 1180px;
+top: 2375px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: rgba(47, 43, 67, 0.4);
+
+
+}
+
+.input-phone {
+display: flex;
+position: absolute;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+left: 1160px;
+top: 2370px;
+
+width: 249px;
+height: 56px;
+
+background: #FFFFFF;
+border-radius: 10px;
+}
+
+.border-call {
+
+    
+box-sizing: border-box;
+
+display: flex;
+
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 36px 18px;
+gap: 10px;
+
+
+
+border: 1px solid #FFFFFF;
+border-radius: 10px;
+}
+
+.border-call>a {
+    text-decoration: none;
+    color: white;
+}
