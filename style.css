@@ -441,8 +441,8 @@ color: #33836E;
 .companyimg {
     position: absolute;
     display: flex;
-    left: 1200px;
-    top: 1945px;
+    left: 1300px;
+    top: 1913px;
     max-width: 500px;
 }
 
@@ -540,7 +540,9 @@ border-radius: 10px;
 box-sizing: border-box;
 
 display: flex;
-
+position: absolute;
+top: 2370px;
+left: 1430px;
 flex-direction: row;
 justify-content: center;
 align-items: center;
@@ -555,5 +557,100 @@ border-radius: 10px;
 
 .border-call>a {
     text-decoration: none;
+    color: black;
+}
+
+
+/*  */
+
+.contact-section {
+    background-color: #33836E;
     color: white;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 25px;
+    margin-top: 90px;
+    }
+
+.hotline-info {
+    flex: 1;
+    margin-right: 40px;
+}
+
+.hotline-info>h3 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.phone-numberr {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.callback-form-container {
+    flex: 1;
+    max-width: 500px;
+}
+
+.callback-form-container>h3 {
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.callback-form label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.input-and-button {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.callback-form input[type="tel"] {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    flex: 2;
+    color: #333;
+    background-color: white;
+}
+
+.callback-form button {
+    background-color: #33836E;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    flex: 1;
+    white-space: nowrap;
+    transition: background-color 0.3s;
+}
+
+.callback-form button:hover {
+    background-color: #4b9227;
+}
+.agreement-text {
+    font-size: 12px;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.agreement-text a {
+    color: white;
+    text-decoration: underline;
+}
+
+.work {
+    margin-top: 50px;
 }
